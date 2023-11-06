@@ -7,4 +7,4 @@ RUN echo "MaxCircuitDirtiness 30" >> /etc/tor/torrc
 EXPOSE 9050
 USER tor
 
-CMD ["/usr/bin/tor"]
+CMD ["tor"]
